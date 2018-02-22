@@ -1,28 +1,24 @@
-<div class="ui link card">
-
-    <div class="card">
-      <div class="image">
-        <img src="{{ detail.image }}">
-      </div>
-      <div class="content">
-        <a class="header">{{ detail.name }}</a>
-        <div class="meta">
-          <span class="date">{{ detail.notes }}</span>
-        </div>
-        <div class="description">
-          {{ detail.address }}
-        </div>
-      </div>
+<div class="ui link solid card">
+  <div class="image">
+    <img src="{{ detail.image }}">
+  </div>
+  <div class="content">
+    <a class="header">{{ detail.name }}</a>
+    <div class="meta">
+      <span class="date">{{ detail.notes }}</span>
     </div>
-    <div class="extra content">
-      <span class="right floated">
-        {{ detail.phoneNumber}}
-      </span>
-      <span>
-        <a>
-          <i class="id card icon"></i>
-          {{ detail.studentID }}
-        </a>
-      </span>
+    <div class="description">
+      {{ detail.address }}
     </div>
   </div>
+  <div class="extra content">
+    <span class="right floated">
+      {{ detail.phoneNumber }}
+    </span>
+    <a>
+      <i class="address book icon"></i>
+      {{ detail.studentID }}
+    </a>
+  </div>
+</div>
+<br>

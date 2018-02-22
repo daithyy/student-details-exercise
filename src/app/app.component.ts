@@ -15,18 +15,18 @@ export class AppComponent {
     new Detail(
       "David Brennan", "52 Brooklyn Avenue", 
       "S00172994", "044 9234728", "Games Developer",
-      ".images/user.jpg"),
+      "assets/images/david.jpg"),
     new Detail(
       "Adrian Fearon", "10 Oakcrest Rd.", 
       "S00148923", "082 6284657", "Lead Audio Artist",
-      ".images/user.jpg"), 
+      "assets/images/adrian.png"), 
     new Detail(
       "Jack Gilmartin", "36 Mellow Street", "S00182481", 
       "086 3159035", "Lead Engine Programmer",
-      ".images/user.jpg"),
+      "assets/images/jack.png"),
     new Detail(
       "Liam McManus", "9 Fairview", 
       "S00169401", "089 4139502", "Game Designer",
-      ".images/user.jpg")]
+      "assets/images/liam.png")]
   }
 }

@@ -1,4 +1,8 @@
-<div class="ui four column grid">
-    <app-detail *ngFor="let student of Detail"
-    [detail] = "student"></app-detail>
-</div> 
+<div class="ui raised segment">
+    <div class="ui link cards">
+        <app-detail 
+        *ngFor="let student of Detail" 
+        [detail]="student">
+        </app-detail>
+    </div>
+</div>
